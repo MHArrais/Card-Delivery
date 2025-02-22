@@ -20,10 +20,10 @@ const RestaurantPage = async ({ params }: RestaurantPageProps) => {
       {/* LOGO E TITULO */}
       <div className="flex flex-col items-center gap-2">
         <Image
-          src={restaurant.avatarImageUrl}
+          src={"/logo.jpg"}
           alt={restaurant.name}
-          width={82}
-          height={82}
+          width={200}
+          height={100}
         />
         <h2 className="font-semibold">{restaurant.name}</h2>
       </div>
